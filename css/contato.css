@@ -1,0 +1,173 @@
+*{
+
+    box-sizing: border-box;}
+
+.section-form{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 715px;
+    display: flex;}
+
+.form{
+
+    margin-right: 70px;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 610px;
+    background-color: white;
+    text-align: center;}
+
+.form input{
+
+    padding-left: 8px;
+    border: none;
+    margin-bottom: 10px;
+    height: 40px;}
+
+.form label{
+
+    text-align: left;
+    color: black;}
+
+.div_label_politica{
+
+    height: 50px;
+    display: flex;
+    align-items: center;}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 500px;}
+
+label{
+
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 0;}
+
+input, select, textarea{
+
+    border: 0;
+    background-color: #ededed;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;}
+
+input:focus{
+
+  outline: none;
+  box-shadow: none;}
+
+.select{
+
+    margin-top: 20px;
+    margin-bottom: 30px;}
+
+.select select{
+
+    background-color: #ededed;
+    border: none;
+    width: 183px;}
+
+.message{
+
+    margin-bottom: 20px;
+    text-align: left;}
+
+.message textarea{
+
+    resize: none;
+    padding-left: 8px;
+    resize: none;
+    min-height: 80px;
+    overflow: hidden;}
+
+.div_label_politica{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: black;}
+
+.div_label_politica input[type="checkbox"]{
+
+    margin-top: 3px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;}
+
+#label_politica{
+
+    margin-bottom: 23px;
+    width: auto;
+    border: none;
+    line-height: 1.4;}
+
+#label_politica a{
+
+    color: #FF2978;
+    text-decoration: underline;}
+
+#form-button{
+
+    padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #FF2978;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;}
+
+.form-info{
+
+    display: flex;
+    transition: transform 0.3s ease;
+    color: white;
+    width: 480px;
+    margin: 1%;
+    padding: 20px;}
+
+.form-img{
+
+    height: 100px;
+    margin-right: 15px;
+    width: 100px;
+    margin-top: 25px;}
+
+.form-img img{
+
+    height: 100%;
+    width: 100%;}
+
+.form-content{
+
+    height: 125px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: left;}
+
+.form-content p{
+
+    margin: 0;
+    font-weight: 400;
+    margin-left: 4%;
+    width: 95%;
+    margin-right: 10%;
+    font-size: 16px;}
+
+.form-content h2{
+
+    width: 280px;
+    margin-left: 4%;}

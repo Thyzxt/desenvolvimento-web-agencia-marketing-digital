@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/politica.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Agência de Marketing Digital - Contato</title>
+</head>
+<body>
+
+    <!-- Menu -->
+    <nav class="nav-menu">
+        <div class="logo"><h1>Digitallize</h1></div>
+
+        <div class="div-menu">
+            <a href="index.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="politica.html">Política</a>
+            <a href="contato.html" id="menu-btn">Contato</a>
+        </div>
+    </nav>
+
+    <!-- Imagem de fundo -->
+    <div style="background-image: url('img/imagem-contato.jpeg');" class="background-img">
+        <h1>Contate-nos</h1>
+        <span class="background-line"></span>
+        <p id="background-text">Para que sua empresa alcance o sucesso</p>
+    </div>
+
+    <!-- Seção do Formulário -->
+    <div class="align"style="background-color: #180f4A">
+        <section class="section-form">
+            <div class="form">
+                <form action="" method="post" id="form">
+                    <h2>Preencha o formulário abaixo</h2>
+
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" placeholder="Ex: Rafael Souza" id="name">
+
+                    <label for="tel">Telefone</label>
+                    <input type="tel" name="tel" placeholder="Ex: (41) 3123-4567" id="tel">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Ex: rafa@empresa.com.br" id="email">
+
+                    <div class="select">
+                        <label for="city"></label>
+                        <select name="city" id="city" style="margin-right: 80px;">
+                            <option value="">Estado</option>
+                            <option value="">Estado</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PR">Paraná</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                        </select>
+
+                        <label for="topic"></label>
+                        <select name="topic" id="topic">
+                            <option value="">Assunto</option>
+                            <option value="Comercial">Comercial</option>
+                            <option value="Financeiro">Financeiro</option>
+                            <option value="Parcerias">Parcerias</option>
+                            <option value="Suporte">Suporte Técnico</option>
+                            <option value="Outros">Outros</option>
+                        </select>
+                    </div>
+
+                    <div class="message">
+                        <label for="message">Mensagem</label>
+                        <textarea type="text" name="message" placeholder="Escreva sua mensagem" rows="4" cols="61"></textarea><br>     
+                    </div>
+
+                    <div class="div_label_politica"> 
+                        <input type="checkbox" name="check" id="check" required>
+                        <label id="label_politica" for="check"> Ao enviar essas informações, eu entendi e aceito a 
+                        <a href="politica.html" target="_blank" rel="noopener noreferrer">Política de Privacidade</a>.
+                        </label>
+                    </div>
+
+                    <button id="form-button" type="submit">Enviar</button>
+                </form>
+            </div>
+            
+            <div class="info">
+                <article class="form-info">
+                    <div class="form-img">
+                        <img src="img/localizacao.png" alt="Local">
+                    </div>
+
+                    <div class="form-content">
+                        <h2>Endereços</h2>
+                        <p>R. Conde de Santa Felicidade, 1273 - Centro - São Vicente do Campo</p>
+                    </div>
+                </article>
+
+                <div></div>
+
+                <article class="form-info" style="margin-top: 40px;">
+                    <div class="form-img">
+                        <img src="img/marketing-de-email.png" alt="E-mail">
+                    </div>
+
+                    <div class="form-content">
+                        <h2>E-mail</h2>
+                        <p>contato@digitallize.com.br</p>
+                        <p>financeiro@digitallize.com.br</p>
+                    </div>
+                </article>
+
+                <article class="form-info" style="margin-top: 60px;">
+                    <div class="form-img">
+                        <img src="img/telefone.png" alt="Telefone">
+                    </div>
+
+                    <div class="form-content">
+                        <h2>Telefones</h2>
+                        <p>Fixo: 41 3024.1188 </p>
+                        <p>Whatsapp: 41 98763.4421</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <div class="logo" style="color: white;"><h1>Digitallize</h1></div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2025 Digitallize. Todos os direitos autorais reservados</p>
+            <div class="footer-menu">
+                <a href="index.html">Home</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="politica.html">Política</a>
+                <a href="contato.html" id="menu-atual">Contato</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="whats">
+        <a onclick="showMessage();">
+            <img src="img/whatsapp.png" alt="whatsapp">
+        </a>
+    </div>
+    <div class="whats-message" style="display: none;">
+        <img src="img/whats2.png" alt="whatsapp">
+        <a href="https://web.whatsapp.com/">Entre em contato e tire suas dúvidas via WhatsApp!</a>   
+        <span class="close-whats" onclick="closeMessage()">×</span>
+    </div>
+
+    <script src="js/form.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
