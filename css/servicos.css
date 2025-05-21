@@ -301,7 +301,38 @@ nav{
 
     .container{
 
+        height: 280px;
+        width: 100%;
         flex-direction: column;}
+
+    .container-content{
+
+        margin-left: 0;}
+
+    .container-content h2{
+
+        font-size: 30px;
+        margin: auto;
+        width: 70%;}
+
+    .container-content p{
+
+        font-size: 18px;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;}
+
+    .container-content a{
+
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        width: 45%;
+        display: flex;}
+
+    .container-line{
+
+        margin-left: 75px;}
 
     #container-img{
 
@@ -309,12 +340,13 @@ nav{
 
     .main-ad-cards{
 
-        height: 920px;}
+        height: 940px;}
 
     .ad-cards{
 
-        height: 160px;
-        margin-left: 7%;
+        margin-bottom: 20px;
+        height: 140px;
+        margin-left: 5%;
         width: 80%;}
 
     .ad-cards:hover{
@@ -328,116 +360,152 @@ nav{
 
     .ad-cards-content p{
 
-        width: 90%;}
+        font-size: 14px;
+        width: 70%;}
 
     .ad-cards-content h3{
 
-        margin-left: 45px;}
+        margin-left: 32px;}
 
     .traffic-title{
 
-        text-align: justify;
-        width: 665px;
-        margin-bottom: 50px;
+        width: 90%;
+        margin-bottom: 40px;
         margin-top: 100px;}
-
+    
     .traffic-title h2{
-
-        color: #321bad;
-        font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
-        font-weight: 800;
-        text-align: center;
-        font-size: 25px;}
-
+    
+        font-size: 15px;}
+    
     .traffic-title p{
-
-        font-size: 18px;}
+    
+        font-size: 10px;}
 
     .paid-traffic{
 
-        margin-right: 35px;
-        margin-bottom: 50px;
-        height: 500px;
-        width: 1100px;
-        display: flex;
-        justify-content: center;}
-
-    .trafego_img{
-
-        width: 50%;}
-
-    .trafego_img img{
-
-        width: 90%;
-        height: 100%;}
-
-    .div_conteudo_trafego{
-
-        margin-bottom: 15px;
-        display: flex;}
-
-    .conteudo_trafego_img{
-
-        border: 1px solid black;}
-
-    .img_lista_trafego img{
-
-        width: 60px;
-        margin-right: 12px;}
-
-    .lista_trafego h4{
-
-        color: #4324d5;
-        font-weight: bolder;
-        font-size: 23px;
-        font-weight: 800;
-        margin: 0;}
-
-    .lista_trafego ul{
-
-        width: 380px;
-        padding-left: 5%;
-        font-size: 17px;}
-
-    .lista_trafego li{
-
-        font-size: 16px;
-        width: 340px;
-        font-weight: 500;
-        margin-bottom: 10px;}
-
-    .div_trafego{
-
-        margin-left: 7px;
+        margin-right: 0;
         height: 290px;
-        width: 390px;}
+        width: 90%;}
     
-    .trafego_img{
+    .traffic-img{
     
         width: 100%;}
     
-    .trafego_img img{
+    .traffic-img img{
     
         width: 90%;
         height: 100%;}
     
-    .img_lista_trafego img{
+    .traffic-img-list img{
+ 
+        width: 55%;
+        height: 30%;
+        margin-right: 40px;}
     
-        width: 25px;
-        margin-right: 12px;}
-    
-    .lista_trafego h4{
+    .traffic-list h4{
  
         font-size: 12px;}
     
-    .lista_trafego ul{
-    
+    .traffic-list ul{
+
         width: 150px;
         font-size: 7px;}
     
-    .lista_trafego li{
+    .traffic-list li{
 
         font-size: 7px;
         width: 145px;}
+
+    .stat{
+
+        margin-bottom: 100px;
+        width: 90%;
+        height: 75px;}
     
-}
+    .stat-text{
+ 
+        flex: 30%;
+        text-align: center;}
+    
+    .stat-text h2{
+    
+        font-size: 15px;}
+
+    .stat-text p{
+    
+        font-size: 12px;}
+
+    .plan-pricing{
+
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 30px;} 
+        
+    .plan-pricing h2{
+    
+        font-weight: 800;
+        font-size: 18px}
+    
+    .plan-pricing p{
+    
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        font-size: 10px}
+    
+    .plans{
+    
+        margin: auto;
+        margin-bottom: 110px;
+        width: 90%;}
+    
+    .plan-type{
+    
+        margin-left: 20px;
+        font-size: 12px;
+        font-weight: bolder;}
+    
+    .plan-type p{
+    
+        width: 70%;}
+    
+    .plan-title{
+    
+        margin-top: 50px;
+        display: flex; 
+        align-items: center; 
+        height: 30px;
+        justify-content: space-between;}
+    
+    .icon{
+    
+        margin-right: 20px;
+        font-size: 18px;}
+    
+    .plan-content{
+    
+        width: 280px;
+        font-weight: 300;
+        font-size: 10px;
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;}
+    
+    .plan-content p{
+    
+        font-size: 10px;}
+    
+    .plan-content li{
+    
+        margin-bottom: 10px;
+        font-size: 10px;}
+
+    .plan-content h3{
+
+        font-size: 9px;}
+
+    .plan-content span{
+
+        font-size: 10px !important;}
+    
+    }

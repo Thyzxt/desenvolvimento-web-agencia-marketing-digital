@@ -607,12 +607,11 @@ p.visible, a.visible, h3.visible, h2.visible, li.visible, img.visible{
         margin-right: 70px;
         height: 300px;
         width: 70%;
-        margin-top: 120px;}
+        margin-top: 50px;}
     
     .cta-img img{
 
-        margin-bottom: 0px;
-        height: 70%;
+        height: 90%;
         width: 90%;}
     
     .footer-logo{
