@@ -96,7 +96,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 600px;}
+        height: 400px;}
 
     .policy-content{
 
@@ -106,27 +106,29 @@
 
     .policy-content h2{
 
+        margin: auto;
+        width: 70%;
+        text-align: center;
         font-weight: 300;
-        font-size: 18px;}
+        font-size: 28px;}
         
     .policy-content p{
         
         font-weight: 300;
-        font-size: 12px;}
+        font-size: 18px;}
         
     .policy-content ul{
         
         font-weight: 300;
-        font-size: 12px;}
+        font-size: 18px;}
         
     .policy-content ol{
         
         font-weight: 300;
-        font-size: 12px;}
+        font-size: 18px;}
 
     .policy-list{
 
-        color: rgb(97, 97, 97);
         margin-left: auto;
         margin-right: auto;
         width: 300px;}
@@ -135,9 +137,19 @@
         
         color: #000038;
         font-weight: bolder;
-        font-size: 13px;}
+        font-size: 18px;}
         
     .policy-list ul{
         
         font-weight: 300;
-        font-size: 12px;}}
+        font-size: 18px;}
+    
+    .line{
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        height: 1px;
+        width: 70%;
+        background-color: rgba(139, 139, 139, 0.445);}}
