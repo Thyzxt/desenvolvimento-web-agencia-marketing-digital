@@ -477,7 +477,7 @@ p.visible, a.visible, h3.visible, h2.visible, li.visible, img.visible{
     margin-top: 2px;
     font-size: 16px;}
 
-@media screen and (max-width: 788px){
+@media screen and (max-width: 780px){
 
     .nav-menu{
 
