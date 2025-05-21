@@ -1,5 +1,6 @@
 body{
 
+    overflow-x: hidden;
     background-color: #180f4a;}
 
 nav{
@@ -400,7 +401,7 @@ nav{
  
         width: 55%;
         height: 30%;
-        margin-right: 40px;}
+        margin-right: 35px;}
     
     .traffic-list h4{
  
@@ -454,24 +455,24 @@ nav{
         font-size: 10px}
     
     .plans{
-    
+  
         margin: auto;
         margin-bottom: 110px;
         width: 90%;}
     
     .plan-type{
-    
+
         margin-left: 20px;
         font-size: 12px;
         font-weight: bolder;}
     
     .plan-type p{
-    
+  
         width: 70%;}
     
     .plan-title{
     
-        margin-top: 50px;
+        margin-top: 40px;
         display: flex; 
         align-items: center; 
         height: 30px;
@@ -506,6 +507,4 @@ nav{
 
     .plan-content span{
 
-        font-size: 10px !important;}
-    
-    }
+        font-size: 10px;}}

@@ -523,6 +523,8 @@ p.visible, a.visible, h3.visible, h2.visible, li.visible, img.visible{
 
     .main h2{
 
+        margin: auto;
+        width: 65%;
         font-size: 26px;}
 
     .section-cards{
