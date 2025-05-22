@@ -2,11 +2,14 @@
 
     box-sizing: border-box;}
 
+body{
+
+    overflow: hidden;}
+
 .section-form{
 
     margin-top: 100px;
     margin-bottom: 100px;
-    height: 715px;
     display: flex;}
 
 .form{
@@ -40,7 +43,7 @@
     align-items: center;}
 
 form{
-    
+
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -171,3 +174,106 @@ input:focus{
 
     width: 280px;
     margin-left: 4%;}
+
+@media (max-width: 780px){
+
+    .section-form{
+
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+        display: flex;}
+
+    .form{
+
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 3%;
+        width: 100%;}
+
+    form{
+
+        width: 100%;}
+
+    .form input{
+
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 8px;
+        border: none;
+        width: 85%;
+        margin-bottom: 10px;
+        height: 40px;}
+
+    .form label{
+
+        width: 85%;
+        margin: auto;
+        text-align: left;
+        color: black;}
+
+    .select{
+
+        margin-top: 20px;
+        margin-bottom: 30px;}
+
+    .select select{
+
+        width: 30%;}
+
+    .message{
+
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;}
+
+    .message textarea{
+
+        width: 100%;
+        overflow: hidden;}
+
+    .div_label_politica{
+
+        margin: auto;
+        width: 85%;}
+
+    #form-button{
+        
+        margin-left: 8%;
+        margin-top: 10px;}
+
+    .info{
+
+        display: flex;
+        flex-direction: column;}
+
+    .form-info{
+        
+        width: 90%;
+        margin: 1%;
+        padding: 20px;}
+
+    .form-img{
+
+        height: 30%;
+        margin-right: 25px;
+        width: 30%;
+        margin-top: 25px;}
+
+    .form-content{
+
+        width: 50%;}
+
+    .form-content p{
+
+        margin: 0;
+        font-weight: 400;
+        margin-left: 4%;
+        width: 95%;
+        margin-right: 10%;
+        font-size: 16px;}
+    
+}
