@@ -485,6 +485,10 @@ p.visible, a.visible, h3.visible, h2.visible, li.visible, img.visible{
         flex-direction: column;
         position: relative;}
 
+    .div-menu{
+
+        padding: 15px 5px;}
+
     .logo{
 
         align-items: center;
@@ -496,7 +500,7 @@ p.visible, a.visible, h3.visible, h2.visible, li.visible, img.visible{
     #menu-btn{
 
         font-size: 16px;
-        padding: 20px 16px;
+        padding: 5px 5px;
         color: #180f4A;
         text-decoration: none;
         margin-left: 0;
