@@ -481,16 +481,33 @@ p.visible, a.visible, h3.visible, h2.visible, li.visible, img.visible{
 
     .nav-menu{
 
+        height: 120px;
+        flex-direction: column;
         position: relative;}
-
-    .div-menu{
-        
-        display: none;}
 
     .logo{
 
+        align-items: center;
+        display: flex;
         margin: 0;
-        text-align: center;}
+        text-align: center;
+        height: 60px;}
+
+    #menu-btn{
+
+        font-size: 16px;
+        padding: 20px 16px;
+        color: #180f4A;
+        text-decoration: none;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: white;
+        border-radius: 0;}
+
+    #menu-btn:hover{
+
+        color: #FF2978;
+        background-color: white;}
 
     .header{
 

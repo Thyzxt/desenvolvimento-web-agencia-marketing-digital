@@ -69,6 +69,11 @@ nav{
     background-color: #FF2978;
     color: white;}
 
+.container-content a:hover{
+
+    background-color: white;
+    color: #FF2978;}
+
 .main-ad-cards{
 
     text-align: center;
